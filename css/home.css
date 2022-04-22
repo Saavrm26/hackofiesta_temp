@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+}
+header{
+    height:100px;
+    margin: 0 auto;
+    background-color: #1ab188;
+    display: flex;
+    justify-content:space-between;
+}
+.logoAndNav{
+    display: inline-flex;
+}
+.navitem{
+    padding: 15px;
+    margin: auto 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.navitem a{
+    color: #fff;
+    text-decoration: none;
+    font-size:125% ;
+}
+.logo{
+    padding: 0;
+    margin: 0 auto;
+}
+.profile{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+
+}
