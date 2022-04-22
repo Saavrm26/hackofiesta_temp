@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    transition: all 0.2s;
 }
 header{
     height:100px;
@@ -22,6 +23,10 @@ header{
     color: #fff;
     text-decoration: none;
     font-size:125% ;
+    transition: color 0.3s;
+}
+.navitem a:hover{
+    color: black;
 }
 .logo{
     padding: 0;
@@ -31,6 +36,6 @@ header{
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 5px;
+    padding-right: 20px;
 
 }
